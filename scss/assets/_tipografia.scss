@@ -1,0 +1,128 @@
+b, strong {
+    font-weight: 800;
+}
+ol, ul {
+    padding-left: 0;
+}
+
+.tituloPrincipal{
+
+}
+
+.tituloPrincipalBlanco{
+
+}
+.fontHeight{
+    line-height: 10px;
+}
+.tipoCentrado{
+    text-align: center;
+}
+
+// SUB TITULOS//
+.subTitulo{
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.subTituloBlanco{
+    color: white;
+    font-size: 3rem;
+    font-weight: 200;
+    @media screen and (max-width:500px) {
+        font-size: 2.7rem;
+      }
+}
+.subTituloVerde{
+    color: rgb(0, 254, 190);
+    font-size: 3rem;
+    font-weight: 200;
+    @media screen and (max-width:500px) {
+        font-size: 2.7rem;
+      }
+}
+
+.subTituloVioleta{
+    color: #8a2be2;
+    font-size: 3rem;
+    font-weight: 200;
+    @media screen and (max-width:500px) {
+        font-size: 2.7rem;
+      }
+}
+
+// PARRAFOS //
+.parrafoVerde{
+    color: rgb(0, 254, 190);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.parrafoNegro{
+    color: black;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.parrafo{
+    font-size: 1.2rem;
+}
+
+.parrafoBlanco{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+//punto y coma//
+.puntoComaUno{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.puntoComaDos{
+    font-size: 10rem;
+    font-weight: 700;
+    color: #8a2be2;
+    font-family: 'Oswald', sans-serif;
+}
+.puntoComaTres{
+    font-size: 10rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+.puntoComa{
+    position: absolute;
+    top: -400px;
+    right: -55px;
+    font-size: 40rem;
+    font-weight: 700;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    @media screen and (max-width:500px) {
+        display: none;
+      }
+
+}
+
+.marginBottom{
+    margin-bottom: 40px;
+}
+
+.marginBottomS{
+    margin-bottom: 90px;
+}
+
+.paddingBottom{
+    padding-bottom: 40px;
+}
+
+.paddingV{
+    padding: 7% 0px 11% 0px;
+    @media screen and (max-width:500px) {
+        padding: 60px 0px;
+      }
+}
+
+

@@ -1,0 +1,119 @@
+main{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.mainCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+
+.mainDosCont{
+    border-left: 2px black solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.rotar{
+    transform: rotate(270deg);
+
+}
+//Seccion 1//
+.perfil{
+    width: 100%;
+}
+.contFotoPerfil{
+    width: 100%;
+}
+.contPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    object-fit: cover;
+    padding: 10%;
+    @media screen and (max-width:500px) {
+        flex-direction: column;
+        padding: 5%;
+      }
+}
+.experiencia{
+
+}
+
+.seccionQuienSoy{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.subPerfil{
+    display: flex;
+    align-items: baseline;
+    gap: 80px;
+    margin-bottom: 50px;
+    @media screen and (max-width:500px) {
+        gap: 18px;
+      }
+}
+
+.experienciaTitulo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.expIcono{
+    width: 30px;
+}
+
+.subTextosPerfil{
+ width: 100px;
+}
+
+//Seccion 2//
+
+.secctionCont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8a2be2;
+    padding: 20px;
+    overflow: hidden;
+   h2{
+    @media screen and (max-width:500px) {
+        font-size: 2.5rem;
+      }
+   }
+}
+.tituloSeccion{
+    margin-bottom: 50px;
+}
+
+.tituloSubSeccion{
+    margin-bottom: 20px;
+}
+
+
+//Fondos//
+.fondoDos{
+    background-image: url("../img/fondoDos.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondoTres{
+    background-image: url("../img/fondoTres.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

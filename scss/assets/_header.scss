@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+
+}
+//header//
+.verde{
+    color: #00febe;
+}
+.logoJP{
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+header{
+    background-color: blueviolet;
+    background-image: url("../img/Fondo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+.headerContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+}
+
+.headerLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerPie{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+}
+
+nav{
+    margin-top: 20px;
+}
+//links//
+
+.ulLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    @media screen and (max-width:500px) {
+        gap:14px;
+      }
+    li{
+        list-style: none; 
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        transition: 0.6s;
+        &:hover{
+            color: rgb(0, 254, 190);
+        }
+    }
+}
+
+
+

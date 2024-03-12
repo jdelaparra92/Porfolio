@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.verde {
+  color: #00febe;
+}
+
+.logoJP {
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+header {
+  background-color: blueviolet;
+  background-image: url("../img/Fondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+}
+
+.headerContenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70%;
+}
+
+.headerLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerPie {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.ulLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 500px) {
+  .ulLinks {
+    gap: 14px;
+  }
+}
+.ulLinks li {
+  list-style: none;
+}
+.ulLinks a {
+  text-decoration: none;
+  color: white;
+  transition: 0.6s;
+}
+.ulLinks a:hover {
+  color: rgb(0, 254, 190);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4%;
+}
+@media screen and (max-width: 500px) {
+  footer {
+    flex-direction: column;
+  }
+}
+footer .redesImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer .redesImg img {
+  width: 40px;
+}
+footer .redesImg a {
+  text-decoration: none;
+  color: black;
+  transition: 0.6s;
+}
+footer .redesImg a:hover, footer .redesImg a:hover ~ .redesImg {
+  transform: translateY(5px);
+  color: #00febe;
+}
+footer .contenedorRedes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+main {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.mainCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.mainDosCont {
+  border-left: 2px black solid;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.rotar {
+  transform: rotate(270deg);
+}
+
+.perfil {
+  width: 100%;
+}
+
+.contFotoPerfil {
+  width: 100%;
+}
+
+.contPerfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  object-fit: cover;
+  padding: 10%;
+}
+@media screen and (max-width: 500px) {
+  .contPerfil {
+    flex-direction: column;
+    padding: 5%;
+  }
+}
+
+.seccionQuienSoy {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.subPerfil {
+  display: flex;
+  align-items: baseline;
+  gap: 80px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 500px) {
+  .subPerfil {
+    gap: 18px;
+  }
+}
+
+.experienciaTitulo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.expIcono {
+  width: 30px;
+}
+
+.subTextosPerfil {
+  width: 100px;
+}
+
+.secctionCont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a2be2;
+  padding: 20px;
+  overflow: hidden;
+}
+@media screen and (max-width: 500px) {
+  .secctionCont h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.tituloSeccion {
+  margin-bottom: 50px;
+}
+
+.tituloSubSeccion {
+  margin-bottom: 20px;
+}
+
+.fondoDos {
+  background-image: url("../img/fondoDos.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoTres {
+  background-image: url("../img/fondoTres.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+b, strong {
+  font-weight: 800;
+}
+
+ol, ul {
+  padding-left: 0;
+}
+
+.fontHeight {
+  line-height: 10px;
+}
+
+.tipoCentrado {
+  text-align: center;
+}
+
+.subTitulo {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.subTituloBlanco {
+  color: white;
+  font-size: 3rem;
+  font-weight: 200;
+}
+@media screen and (max-width: 500px) {
+  .subTituloBlanco {
+    font-size: 2.7rem;
+  }
+}
+
+.subTituloVerde {
+  color: rgb(0, 254, 190);
+  font-size: 3rem;
+  font-weight: 200;
+}
+@media screen and (max-width: 500px) {
+  .subTituloVerde {
+    font-size: 2.7rem;
+  }
+}
+
+.subTituloVioleta {
+  color: #8a2be2;
+  font-size: 3rem;
+  font-weight: 200;
+}
+@media screen and (max-width: 500px) {
+  .subTituloVioleta {
+    font-size: 2.7rem;
+  }
+}
+
+.parrafoVerde {
+  color: rgb(0, 254, 190);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.parrafoNegro {
+  color: black;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.parrafo {
+  font-size: 1.2rem;
+}
+
+.parrafoBlanco {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.puntoComaUno {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.puntoComaDos {
+  font-size: 10rem;
+  font-weight: 700;
+  color: #8a2be2;
+  font-family: "Oswald", sans-serif;
+}
+
+.puntoComaTres {
+  font-size: 10rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-family: "Oswald", sans-serif;
+}
+
+.puntoComa {
+  position: absolute;
+  top: -400px;
+  right: -55px;
+  font-size: 40rem;
+  font-weight: 700;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+@media screen and (max-width: 500px) {
+  .puntoComa {
+    display: none;
+  }
+}
+
+.marginBottom {
+  margin-bottom: 40px;
+}
+
+.marginBottomS {
+  margin-bottom: 90px;
+}
+
+.paddingBottom {
+  padding-bottom: 40px;
+}
+
+.paddingV {
+  padding: 7% 0px 11% 0px;
+}
+@media screen and (max-width: 500px) {
+  .paddingV {
+    padding: 60px 0px;
+  }
+}
+
+.galeriaLogo {
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: blueviolet;
+  background-image: url("../img/Fondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+@media screen and (max-width: 500px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* hover styles */
+.logoLista {
+  position: relative;
+}
+
+.logoImagen img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.logoImagen img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+}
+
+.logoTitulo {
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background: rgba(137, 43, 226, 0.6901960784);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoLista:hover .logoTitulo {
+  opacity: 1;
+}
+
+.logoLista:hover .logoImagen img {
+  filter: blur(2px);
+}
+
+/* para celulares */
+@media (hover: none) {
+  .logoTitulo {
+    opacity: 1;
+  }
+
+  .logoImagen img {
+    filter: blur(2px);
+  }
+}
+.grid-container-3d {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1em;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+@media screen and (max-width: 500px) {
+  .grid-container-3d {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+.grid-container-3d div {
+  object-fit: contain;
+}
+.grid-container-3d div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.grid-container-videoJuegos {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-gap: 1em;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+@media screen and (max-width: 500px) {
+  .grid-container-videoJuegos {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+.grid-container-videoJuegos div {
+  object-fit: contain;
+}
+.grid-container-videoJuegos div img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.proyectos {
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: blueviolet;
+  background-image: url("../img/Fondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.dibujos {
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: blueviolet;
+  background-image: url("../img/Fondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
