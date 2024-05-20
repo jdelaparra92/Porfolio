@@ -3,8 +3,8 @@
 .galeriaLogo{
     padding-right: 5%;
     padding-left: 5%;
-    background-color: blueviolet;
-    background-image: url("../img/Fondo.png");
+    background-color: rgb(255, 255, 255);
+    background-image: url("../img/fondoDos.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +29,8 @@
   }
   
   .logoImagen {
+    border-radius: 5px;
+    border: 1px solid #892be2b0;
 
     img {
         width: 100%; 

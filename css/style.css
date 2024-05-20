@@ -366,8 +366,8 @@ ol, ul {
 .galeriaLogo {
   padding-right: 5%;
   padding-left: 5%;
-  background-color: blueviolet;
-  background-image: url("../img/Fondo.png");
+  background-color: rgb(255, 255, 255);
+  background-image: url("../img/fondoDos.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -390,6 +390,10 @@ ol, ul {
   position: relative;
 }
 
+.logoImagen {
+  border-radius: 5px;
+  border: 1px solid rgba(137, 43, 226, 0.6901960784);
+}
 .logoImagen img {
   width: 100%;
   border-radius: 5px;
