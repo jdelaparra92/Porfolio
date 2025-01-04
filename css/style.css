@@ -138,10 +138,16 @@ main {
 
 .perfil {
   width: 100%;
+  border-radius: 20px;
 }
 
 .contFotoPerfil {
-  width: 100%;
+  width: 350px;
+}
+@media screen and (max-width: 500px) {
+  .contFotoPerfil {
+    width: 100%;
+  }
 }
 
 .contPerfil {
@@ -150,13 +156,36 @@ main {
   align-items: center;
   gap: 50px;
   object-fit: cover;
-  padding: 10%;
+  padding: 5%;
 }
 @media screen and (max-width: 500px) {
   .contPerfil {
     flex-direction: column;
     padding: 5%;
   }
+}
+
+.contPerfilDos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  object-fit: cover;
+  padding: 100px 0px;
+}
+@media screen and (max-width: 1000px) {
+  .contPerfilDos {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contPerfilDos {
+    padding: 30px 0px;
+  }
+}
+
+.experiencia {
+  width: 100%;
 }
 
 .seccionQuienSoy {
@@ -228,6 +257,79 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.web {
+  filter: drop-shadow(2px 3px 5px #000000);
+  filter: brightness(100%);
+  transition: all 500ms;
+}
+
+.web:hover {
+  filter: brightness(50%);
+  transition: all 500ms;
+}
+
+.sobreMi {
+  width: 600px;
+}
+@media screen and (max-width: 800px) {
+  .sobreMi {
+    width: 100%;
+  }
+}
+
+.experienciaCont {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .experienciaCont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.herramienta {
+  filter: drop-shadow(2px 3px 5px #000000);
+  filter: brightness(100%);
+  transition: all 500ms;
+}
+
+.herramienta img {
+  width: 120px;
+}
+
+.herramienta:hover {
+  filter: brightness(50%);
+  transition: all 500ms;
+}
+
+.herramientaCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 5% 5%;
+}
+@media screen and (max-width: 1300px) {
+  .herramientaCont {
+    flex-wrap: wrap;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 807px) {
+  .flex {
+    flex-direction: column;
+  }
 }
 
 b, strong {
@@ -436,7 +538,6 @@ ol, ul {
   .logoTitulo {
     opacity: 1;
   }
-
   .logoImagen img {
     filter: blur(2px);
   }
@@ -506,6 +607,23 @@ ol, ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.tripticont {
+  display: flex;
+  padding: 3% 5%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+@media screen and (max-width: 907px) {
+  .tripticont {
+    flex-direction: column;
+  }
+}
+
+.trip {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
