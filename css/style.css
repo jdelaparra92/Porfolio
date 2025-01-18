@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Kanit", sans-serif;
 }
-
+p {
+  margin-bottom: 0px;
+}
 .verde {
   color: #00febe;
 }
@@ -416,7 +418,10 @@ ol, ul {
 }
 
 .puntoComaDos {
-  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
   font-weight: 700;
   color: #8a2be2;
   font-family: "Oswald", sans-serif;
