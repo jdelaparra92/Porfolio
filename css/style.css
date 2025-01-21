@@ -453,6 +453,10 @@ ol, ul {
   margin-bottom: 40px;
 }
 
+.marginBottomDis {
+  margin-bottom: 40px !important;
+}
+
 .marginBottomS {
   margin-bottom: 90px;
 }
@@ -632,3 +636,8 @@ ol, ul {
 }
 
 /*# sourceMappingURL=style.css.map */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+  margin-bottom: 0rem !important;
+
+}
