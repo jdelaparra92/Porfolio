@@ -641,3 +641,29 @@ ol, ul {
   margin-bottom: 0rem !important;
 
 }
+
+
+.posteosVid {
+  display: flex;
+  padding: 3% 5%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+@media screen and (max-width: 907px) {
+  .posteosVid {
+    flex-direction: column;
+  }
+}
+
+.posteosVid video {
+width: 450px;
+height: 450px;
+
+}
+@media screen and (max-width: 507px) {
+  .posteosVid video {
+    width: 300px;
+    height: 300px;
+  }
+}
